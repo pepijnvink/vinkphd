@@ -44,4 +44,5 @@ mHMM_AIC <- function(models) {
     AICc <- ((2 * n_vary * n_par) / (n_vary - n_par - 1)) - (2 * LL)
   }
   output <- c(LL = mean(LL), AIC = mean(AIC), AICc = mean(AICc))
+  return(output)
 }
