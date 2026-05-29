@@ -1,0 +1,19 @@
+Package: vinkphd
+Title: Utility Package for PhD
+Version: 0.0.0.9000
+Authors@R: 
+    person("Pepijn", "Vink", , "p.a.vink@uu.nl", role = c("aut", "cre"))
+Description: Package with utility functions that I use in my PhD.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    cli,
+    mHMMbayes (>= 1.1.1),
+    Rcpp,
+    stats
+Remotes: 
+    pepijnvink/mHMMplot@dev
+LinkingTo: 
+    Rcpp
