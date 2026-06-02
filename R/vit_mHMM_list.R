@@ -32,6 +32,7 @@
 #'   observations for that subject. The second column contains the most likely
 #'   state at each point in time. If requested, the subsequent columns contain
 #'   the state probabilities at each point in time for each subject.
+#' @export
 vit_mHMM_list <- function(
   models,
   s_data,
