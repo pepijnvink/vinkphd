@@ -3,4 +3,5 @@
 export(gamma_relative)
 export(mHMM_AIC)
 export(stat_dist)
+export(vit_mHMM_list)
 importFrom(Rcpp,sourceCpp)
